@@ -1,5 +1,14 @@
 # 目录
 
+* [JVM系列教程](#jvm系列教程)
+* [Java数据结构系列教程](#java数据结构系列教程)
+  * [数据结构](#数据结构)
+  * [排序算法](#排序算法)
+  * [查找算法](#查找算法)
+  * [二叉树](#二叉树)
+* [Nginx系列教程](#nginx系列教程)
+* [Stream流系列教程](#stream流系列教程)
+* [Quartz系列教程](#quartz系列教程)
 * [ES系列教程](#es系列教程)
 * [HDFS系列教程](#hdfs系列教程)
 * [Yarn系列教程](#yarn系列教程)
@@ -12,8 +21,101 @@
   * [Spark Streaming](#spark-streaming)
   * [Spark案例实操](#spark案例实操)
 * [Livy系列教程](#livy系列教程)
+* [kafka系列教程](#kafka系列教程)
+  * [Kafka初级](#kafka初级)
+  * [Kafka高级](#kafka高级)
 * [结尾](#结尾)
 
+
+# JVM系列教程
+
++ [01.浅谈类的加载过程](https://lilinchao.com/archives/20.html)
++ [02.Java程序对类的使用方式](https://lilinchao.com/archives/29.html)
++ [03.常量的本质含义](https://lilinchao.com/archives/161.html)
++ [04.编译期常量与运行期常量的区别以及数组创建本质分析](https://lilinchao.com/archives/170.html)
++ [05.类加载器准备阶段和初始化阶段的重要意义分析](https://lilinchao.com/archives/176.html)
++ [06.类加载器深入解析及重要特性剖析](https://lilinchao.com/archives/178.html)
++ [07.初始化对于类与接口的异同深入解析](https://lilinchao.com/archives/200.html)
++ [08.类加载器与类初始化深度剖析](https://lilinchao.com/archives/232.html)
++ [09.不同的类加载器作用与加载动作分析](https://lilinchao.com/archives/236.html)
++ [10.ClassLoader源码解析与实例剖析](https://lilinchao.com/archives/243.html)
++ [11.自定义类加载器深入详解](https://lilinchao.com/archives/250.html)
+
+# Java数据结构系列教程
+
+## 数据结构
+
++ [01.数据结构—散列](https://lilinchao.com/archives/448.html)
++ [02.数据结构学习--稀疏数组](https://lilinchao.com/archives/463.html)
++ [03.数据结构学习—队列（一）](https://lilinchao.com/archives/471.html)
++ [04.数据结构学习—环形队列（二）](https://lilinchao.com/archives/473.html)
++ [05.数据结构学习—链表](https://lilinchao.com/archives/479.html)
++ [06.数据结构学习—单链表面试题](https://lilinchao.com/archives/483.html)
+
++ [07.数据结构学习—双向链表](https://lilinchao.com/archives/485.html)
++ [08.数据结构学习--单向环形链表](https://lilinchao.com/archives/491.html)
++ [09.数据结构学习—栈（一）](https://lilinchao.com/archives/495.html)
++ [10.数据结构学习--栈实现综合计算器（中缀表达式）](https://lilinchao.com/archives/499.html)
++ [11.数据结构学习--逆波兰表达式](https://lilinchao.com/archives/500.html)
++ [12.数据结构学习--逆波兰计算器](https://lilinchao.com/archives/501.html)
++ [13.数据结构学习—中缀表达式转换为后缀表达式](https://lilinchao.com/archives/502.html)
++ [14.数据结构学习--递归简述](https://lilinchao.com/archives/507.html)
++ [15.数据结构学习—递归-迷宫问题](https://lilinchao.com/archives/511.html)
++ [16.数据结构学习—递归-八皇后问题（回溯法）](https://lilinchao.com/archives/515.html)
+
+## 排序算法
+
++ [17.数据结构和算法学习—排序算法简介](https://lilinchao.com/archives/528.html)
++ [18.数据结构和算法学习—冒泡排序](https://lilinchao.com/archives/530.html)
++ [19.数据结构和算法学习--选择排序](https://lilinchao.com/archives/532.html)
++ [20.数据结构和算法学习--插入排序](https://lilinchao.com/archives/534.html)
++ [21.数据结构和算法学习—希尔排序](https://lilinchao.com/archives/536.html)
++ [22.数据结构和算法学习--归并排序](https://lilinchao.com/archives/537.html)
++ [23.数据结构和算法学习—快速排序](https://lilinchao.com/archives/541.html)
++ [24.数据结构和算法学习--基数排序](https://lilinchao.com/archives/549.html)
++ [25.数据结构和算法学习—堆排序](https://lilinchao.com/archives/607.html)
++ [26.数据结构和算法学习--常用排序算法总结和对比](https://lilinchao.com/archives/552.html)
+
+## 查找算法
+
++ [27.数据结构和算法学习—二分查找算法](https://lilinchao.com/archives/554.html)
++ [28.数据结构和算法学习—插值查找算法](https://lilinchao.com/archives/557.html)
++ [29.数据结构和算法学习—菲波那切（黄金分割法）查找算法](https://lilinchao.com/archives/561.html)
++ [30.数据结构和算法学习—哈希表](https://lilinchao.com/archives/562.html)
+
+## 二叉树
+
++ [31.数据结构和算法学习—树结构的基础部分](https://lilinchao.com/archives/574.html)
++ [32.数据结构和算法学习--二叉树遍历应用实例（前序，中序，后序）](https://lilinchao.com/archives/576.html)
++ [33.数据结构和算法学习--二叉树删除节点](https://lilinchao.com/archives/578.html)
++ [34.数据结构和算法学习—二叉树查找指定节点](https://lilinchao.com/archives/580.html)
++ [35.数据结构和算法学习—顺序存储二叉树](https://lilinchao.com/archives/586.html)
++ [36.数据结构和算法学习—线索二叉树](https://lilinchao.com/archives/589.html)
++ [37.数据结构和算法学习--二叉排序树](https://lilinchao.com/archives/615.html)
+
+# Nginx系列教程
+
++ [01.CentOS7安装Nginx教程](https://lilinchao.com/archives/939.html)
++ [02.Nginx反向代理介绍](https://lilinchao.com/archives/953.html)
++ [03.Nginx文件结构和Location配置介绍](https://lilinchao.com/archives/954.html)
++ [04.Nginx负载均衡介绍](https://lilinchao.com/archives/956.html)
+
+# Stream流系列教程
+
++ [01.Stream流概念介绍](https://lilinchao.com/archives/1243.html)
++ [02.Stream流操作API](https://lilinchao.com/archives/1249.html)
++ [03.Stream流分组操作](https://lilinchao.com/archives/1250.html)
++ [04.Stream流List和Map互转](https://lilinchao.com/archives/1376.html)
+
+# Quartz系列教程
+
++ [01.Quartz介绍](https://lilinchao.com/archives/1400.html)
++ [02.Quartz入门案例](https://lilinchao.com/archives/1402.html)
++ [03.Quartz触发器](https://lilinchao.com/archives/1404.html)
++ [04.Quartz触发器之CronExpression表达式](https://lilinchao.com/archives/1405.html)
++ [05.Quartz监听器](https://lilinchao.com/archives/1406.html)
++ [06.Quartz配置quartz.properties详解](https://lilinchao.com/archives/1407.html)
++ [07.SpringBoot集成Quartz实现分布式任务调度](https://lilinchao.com/archives/1411.html)
 
 # ES系列教程
 
@@ -74,6 +176,8 @@
 + [08.Hbase原理](https://lilinchao.com/archives/1131.html)
 
 # Scala系列教程
+
++ [CentOS7.X安装Scala2.12.10教程](https://lilinchao.com/archives/1388.html)
 
 + [Scala总结（一）](https://lilinchao.com/archives/1221.html)
 + [Scala总结（二）—函数](https://lilinchao.com/archives/1222.html)
@@ -164,6 +268,31 @@
 + [02.Livy安装教程](https://lilinchao.com/archives/1260.html)
 + [03.Livy中REST API使用](https://lilinchao.com/archives/1261.html)
 
+# kafka系列教程
+
+## Kafka初级
+
++ [01.初识Kafka](https://lilinchao.com/archives/1386.html)
++ [02.Kafka常用命令](https://lilinchao.com/archives/1387.html)
++ [03.Kafka的版本号](https://lilinchao.com/archives/1390.html)
++ [04.Kafka安装教程](https://lilinchao.com/archives/1394.html)
++ [05.Kafka架构和工作流程](https://lilinchao.com/archives/1398.html)
+
+## Kafka高级
+
++ [06.Kafka文件存储机制](https://lilinchao.com/archives/1510.html)
++ [07.Kafka生产者分区策略](https://lilinchao.com/archives/1515.html)
++ [08.Kafka生产者数据可靠性保证](https://lilinchao.com/archives/1521.html)
++ [09.Kafka消费过程分析](https://lilinchao.com/archives/1524.html)
++ [10.Kafka重平衡机制](https://lilinchao.com/archives/1533.html)
++ [11.Kafka消费者分区分配策略](https://lilinchao.com/archives/1542.html)
++ [12.Kafka之offset介绍](https://lilinchao.com/archives/1546.html)
++ [13.Zookeeper在Kafka中的作用](https://lilinchao.com/archives/1548.html)
++ [14.Kafka事务特性详解](https://lilinchao.com/archives/1550.html)
++ [15.Kafka生产者API](https://lilinchao.com/archives/1554.html)
++ [16.Kafka消费者API](https://lilinchao.com/archives/1559.html)
++ [17.Kafka自定义拦截器](https://lilinchao.com/archives/1562.html)
++ [18.Kafka监控工具Eagle最新版安装](https://lilinchao.com/archives/1566.html)
 # 结尾
 
 欢迎大家关注微信公众号：【Java和大数据进阶】
@@ -171,4 +300,3 @@
 ![187868441](images/weixin.jpg)
 
 将会有更多精彩内容！
-
